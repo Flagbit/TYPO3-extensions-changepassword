@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-04-04T08:21:04Z" product-name="fb_changepassword">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_fbchangepassword_frontenduser">
+				<source>FrontendUser</source>
+			</trans-unit>
+			<trans-unit id="tx_fbchangepassword_changepassword">
+				<source>Change Password</source>
+			</trans-unit>
+			<trans-unit id="tx_fbchangepassword_oldPass">
+				<source>Old Password</source>
+			</trans-unit>
+			<trans-unit id="tx_fbchangepassword_newPass">
+				<source>New Password</source>
+			</trans-unit>
+			<trans-unit id="tx_fbchangepassword_repeatPass">
+				<source>Repeat</source>
+			</trans-unit>
+			<trans-unit id="tx_fbchangepassword_successHeader">
+                <source>New password has been saved</source>
+            </trans-unit>
+            <trans-unit id="tx_fbchangepassword_successMessage">
+                <source>The new password has been saved. Please use your new password only on your next login.</source>
+            </trans-unit>
+            <trans-unit id="tx_fbchangepassword_oldPassword_required">
+                <source>Old password is wrong.</source>
+            </trans-unit>
+			<trans-unit id="tx_fbchangepassword_updatePassword_required">
+                <source>Password must not be empty.</source>
+            </trans-unit>
+            <trans-unit id="tx_fbchangepassword_updatePassword_minLength">
+                <source>Minimum length is %s characters.</source>
+            </trans-unit>
+            <trans-unit id="tx_fbchangepassword_updatePassword_notTheSame">
+                <source>New Password must not be the same as old password.</source>
+            </trans-unit>
+            <trans-unit id="tx_fbchangepassword_updatePassword_noMatch">
+                <source>Passwords do not match.</source>
+            </trans-unit>
+            <trans-unit id="tx_fbchangepassword_repeatedPassword_required">
+                <source>Repeated password must not be empty.</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,98 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    112,
+                    232
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+                        "save",
+                        ""
+                    ]
+                },
+                "name": "FrontendUser",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "27153027114"
+                },
+                "propertyGroup": {
+                    "properties": [
+
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+
+                    ]
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "Change the password of the front end user in the frontend. Easy template system to configure the layout. User have to enter his old password an twice the new one. Support for salted passwords.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "extbase => 6.0\nfluid => 6.0\ntypo3 => 6.0",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.1",
+            "version": ""
+        },
+        "extensionKey": "fb_changepassword",
+        "name": "Flagbit Changepassword",
+        "originalExtensionKey": "",
+        "persons": [
+            {
+                "company": "Flagbit GmbH & Co. KG",
+                "email": "vanessa.grunz@flagbit.de",
+                "name": "Vanessa Grunz",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "pi1",
+                "name": "Change password"
+            }
+        ],
+        "vendorName": "Flagbit"
+    },
+    "wires": [
+
+    ],
+    "log": {
+        "last_modified": "2015-01-28 11:25",
+        "extension_builder_version": "6.2.0",
+        "be_user": " (2)"
+    }
+}

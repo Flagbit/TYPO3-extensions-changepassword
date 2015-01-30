@@ -1,0 +1,31 @@
+plugin.tx_fbchangepassword {
+    view {
+        templateRootPath = {$plugin.tx_fbchangepassword.view.templateRootPath}
+        partialRootPath = {$plugin.tx_fbchangepassword.view.partialRootPath}
+        layoutRootPath = {$plugin.tx_fbchangepassword.view.layoutRootPath}
+    }
+
+    persistence {
+        classes {
+            Flagbit\FbChangepassword\Domain\Model\FrontendUser {
+                mapping {
+                    tableName = fe_users
+                    colums {
+                        newPassword.mapOnProperty = password
+                    }
+                }
+            }
+        }
+    }
+}
+
+module.tx_fbchangepassword {
+    persistence {
+        storagePid = {$module.tx_fbchangepassword.persistence.storagePid}
+    }
+    view {
+        templateRootPath = {$module.tx_fbchangepassword.view.templateRootPath}
+        partialRootPath = {$module.tx_fbchangepassword.view.partialRootPath}
+        layoutRootPath = {$module.tx_fbchangepassword.view.layoutRootPath}
+    }
+}

@@ -1,0 +1,28 @@
+<f:layout name="default" />
+<f:section name="content">
+    <f:form controller="FrontendUser" action="save" name="frontenduser">
+        <div class="tx_fbchangepassword_onerow">
+			<span class="tx_fbchangepassword_label">
+				<f:translate key="tx_fbchangepassword_changepassword" />
+			</span>
+        </div>
+        <div class="tx_fbchangepassword_errorMessages">
+            <f:flashMessages />
+        </div>
+        <div class="tx_fbchangepassword_onerow">
+            <label for="oldPass"><f:translate key="tx_fbchangepassword_oldPass" /></label>
+            <f:form.password id="oldPass" name="newPassword[]" />
+        </div>
+        <div class="tx_fbchangepassword_onerow-onerow">
+            <label for="newPass"><f:translate key="tx_fbchangepassword_newPass" /></label>
+            <f:form.password id="oldPass" name="newPassword[]" />
+        </div>
+        <div class="tx_fbchangepassword_onerow">
+            <label for="repeatPass"><f:translate key="tx_fbchangepassword_repeatPass" /></label>
+            <f:form.password id="oldPass" name="newPassword[]" />
+        </div>
+        <div class="tx_fbchangepassword_onerow tx_fbchangepassword_submit">
+            <f:form.submit value="Submit" />
+        </div>
+    </f:form>
+</f:section>
